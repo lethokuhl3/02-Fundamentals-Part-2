@@ -117,7 +117,82 @@ function fruitProcessor(apples, Oranges) {
 
   */
 
+  /*
+// Coding Challenge #1
+// Data 1: Dolphins vs Koalas
+
+const calcAverage = (a, b, c) => (a + b + c) / 3;
+const dolphinScore = calcAverage(44, 23, 71);
+const koalasScore = calcAverage(65, 54, 49);
+
+
+console.log(dolphinScore, koalasScore);
+
+
+const checkWinner = function(avgDolphin, avgKoalas) {
+  if(avgDolphin >= 2 * avgKoalas) {
+    console.log(`Dolphins win (${avgDolphin} vs ${avgKoalas})`);
+  }else if(avgKoalas >= 2 * avgDolphin) {
+    console.log(`Koalas win (${avgKoalas} vs ${avgDolphin})`);
+  }else {
+    console.log(`No team wins`);
+  }
+}
+
+// Data 2: Dolphins vs Koalas
+
+const dolphinScore2 = calcAverage(85, 54, 41);
+const koalasScore2 = calcAverage(23, 34, 27);
+
+console.log(dolphinScore2, koalasScore2);
+
+// checkWinner(dolphinScore, koalasScore);
+checkWinner(dolphinScore2, koalasScore2);
+*/
+
+// introduction to Arrays
+
+const friend1 = 'Lethokuhle';
+const friend2 = 'Thando';
+const friend3 = 'Thabiso';
+
+const friends = ['Lethokuhle', 'Thando', 'Thabiso'];
+console.log(friends);
+
+const y = new Array(1991, 1992, 1993, 1994);
+
+console.log(friends[0]);
+console.log(friends[1]);
+console.log(friends[2]);
+console.log(friends.length);// Length of the array
+console.log(friends[friends.length - 1]); // Accessing the last element in the array
+
+friends[2] = 'Simingaye'; // Changing the value of the third element in the array
+console.log(friends);
+
+const firstName = 'Lethokuhle';
+const lethokuhle = [firstName, 'Mabaso', 2025 - 2002, 'Software developer', friends];
+console.log(lethokuhle);
+console.log(lethokuhle.length);
+
+// Exercise: Array Methods
+
+  const calcAge = function(birthYear) {
+    return 2037 - birthYear;
+  }
+
+  const years = [1990, 1967, 2002, 2010, 2018];
+  const ages = [calcAge(years[0]), calcAge(years[1]), calcAge(years[years.length - 1])];// Using the last element in the array to calculate the age
+  console.log(ages);
   
+
+
+
+
+ 
+
+
+
 
   
 
