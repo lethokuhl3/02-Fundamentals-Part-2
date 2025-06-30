@@ -57,6 +57,7 @@ function fruitProcessor(apples, Oranges) {
   console.log(age1, age2);
   */
 
+  /*
   // Arrow Functions
 
   const calcAge3 = birthYear => 2023 - birthYear;
@@ -71,6 +72,23 @@ function fruitProcessor(apples, Oranges) {
 
   console.log(yearsUntilRetirement(1991, 'Letho'));
   console.log(yearsUntilRetirement(1980, 'John'));
+  */
+
+  // Functions Calling Other Functions
+
+  function cutFruitPieces(fruit) {
+    return fruit * 4; // Assuming each fruit is cut into 4 pieces
+  } 
+
+  function fruitProcessor(apples, oranges) {
+    const applePieces = cutFruitPieces(apples);
+    const orangePieces = cutFruitPieces(oranges);
+    const juice = `Juice with ${applePieces} pieces of apple and ${orangePieces} pieces of orange.`;
+    return juice;
+  }
+  console.log(fruitProcessor(2, 3));
+
+  
 
 
 
