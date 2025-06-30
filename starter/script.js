@@ -12,7 +12,7 @@ if (hasDriversLicense) console.log('I can drive :D');
 // const if = 23; // 'if' is a reserved keyword, so it cannot be used as an identifier.
 */
 
-
+/*
 function logger() {
   console.log("My name is letho")
 }
@@ -32,7 +32,14 @@ function fruitProcessor(apples, Oranges) {
  const appleOrangeJuice = fruitProcessor(2, 4);
  console.log(appleOrangeJuice);
 
- const num = Number('23')
+ const num = Number('23');
+
+ */
+
+ // Function Declaration vs Function Expression
+
+ 
+
 
 
 
