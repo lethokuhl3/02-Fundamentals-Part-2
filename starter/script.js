@@ -150,6 +150,7 @@ console.log(dolphinScore2, koalasScore2);
 checkWinner(dolphinScore2, koalasScore2);
 */
 
+/*
 // introduction to Arrays
 
 const friend1 = 'Lethokuhle';
@@ -184,6 +185,46 @@ console.log(lethokuhle.length);
   const years = [1990, 1967, 2002, 2010, 2018];
   const ages = [calcAge(years[0]), calcAge(years[1]), calcAge(years[years.length - 1])];// Using the last element in the array to calculate the age
   console.log(ages);
+
+  */
+
+  /*
+  // Basic Array Operations (Methods)
+
+  //add elements to an array
+  const friends = ['Lethokuhle', 'Thando', 'Thabiso'];
+  const newLength = friends.push('Simingaye'); // Add a new element to the end of the array
+  console.log(newLength); // Output the new length of the array
+  console.log(friends);
+
+  const newFriend = friends.unshift('Sizwe'); // Add a new element to the beginning of the array
+  console.log(newFriend); // Output the new length of the array
+  console.log(friends);
+
+  //remove elements from an array
+
+  friends.pop(); // Remove the last element from the array
+  friends.pop(); // Remove the last element again
+  console.log(friends);
+
+  const popped = friends.shift(); // Remove the first element from the array
+  console.log(popped); // Output the removed element
+  console.log(friends);
+
+
+  console.log(friends.indexOf('Thando')); // Find the index of 'Thando' in the array
+  console.log(friends.indexOf('Bob')); // Find the index of 'Bob' in the array (not present, so returns -1)
+
+  // Check if an element exists in the array
+  console.log(friends.includes('Thando')); // Check if 'Thando' is in the array (returns true)
+  console.log(friends.includes('Bob')); // Check if 'Bob' is in the array (returns false)
+
+
+  if(friends.includes('Thando')) {
+    console.log('You have a friend called Thando');
+  }
+    */
+   
   
 
 
