@@ -188,6 +188,7 @@ console.log(lethokuhle.length);
 
   */
 
+
   /*
   // Basic Array Operations (Methods)
 
@@ -224,7 +225,62 @@ console.log(lethokuhle.length);
     console.log('You have a friend called Thando');
   }
     */
-   
+
+  /*
+  // Coding Challenge #2
+
+  const calcTip = function(bill) {
+    return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+  }
+  const bills = [125, 555, 44];
+  const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
+  const totals = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
+  console.log(bills, tips, totals);
+  */
+
+  /*
+// Introduction to Objects
+
+const lethokuhle = {
+  firstName : 'Lethokuhle',
+  lastName : 'Mabaso',
+  age : 2037 - 2002,
+  job : 'Software Developer',
+  friends : ['Lethokuhle', 'Thando', 'Thabiso'],
+}
+
+console.log(lethokuhle);
+
+console.log(lethokuhle.firstName); // Accessing properties using dot notation
+console.log(lethokuhle['lastName']); // Accessing properties using bracket notation
+
+const nameKey = 'Name';
+console.log(lethokuhle['first' + nameKey]); // Accessing properties using bracket notation with a dynamic key
+console.log(lethokuhle['last' + nameKey]); // Accessing properties using bracket notation with a dynamic key
+
+//  const interestedIn = prompt("What do you want to know about Lethokuhle? Choose between firstName, lastName, age, job, friends");
+// if (lethokuhle[interestedIn]) {
+  // console.log(lethokuhle[interestedIn]); // Accessing properties using bracket notation with user input
+// }
+// else {
+  // console.log("Wrong request! Choose between firstName, lastName, age, job, friends");
+// }
+
+lethokuhle.location = 'South Africa'; // Adding a new property to the object
+lethokuhle['twitter'] = '@letho_mabaso'; // Adding a new property to the object using bracket notation
+console.log(lethokuhle);
+
+// Challenge: "Lethokuhle has 3 friends, and his best friend is called Thando"
+console.log(`${lethokuhle.firstName} has ${lethokuhle.friends.length} firends, and his best friend is called ${lethokuhle.friends[1]} `);
+
+*/
+
+
+
+
+
+
+
   
 
 
