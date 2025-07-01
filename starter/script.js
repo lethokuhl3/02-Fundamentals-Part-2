@@ -316,7 +316,43 @@ const lethokuhle = {
 console.log(lethokuhle.getSummary());
 */
 
+// coding challenge #3
 
+const john =  {
+firstName : "John",
+lastName : "Smith",
+weight : "92",
+height : "1.95",
+
+calcBMI : function(){
+this.bmi = this.weight / this.height * 2;
+return this.bmi;
+},
+};
+
+const Mark = {
+  firstName : "Mark",
+  lastName : "Miller",
+  weight : "78",
+  height : "1.69",
+
+calcBMI : function(){
+this.bmi = this.weight / this.height * 2;
+return this.bmi;
+},
+
+};
+Mark.calcBMI();
+john.calcBMI();
+
+console.log(john.calcBMI());
+console.log(Mark.calcBMI());
+
+if(john.bmi > Mark.bmi){
+ console.log(`${john.firstName}'s (${john.bmi}) is higher than ${Mark.firstName}'s (${Mark.bmi})!`)
+}else if(Mark.bmi > john.bmi){
+  console.log(`${Mark.firstName}'s (${Mark.bmi} is higher than ${john.firstName}'s (${john.bmi})!`)
+}
 
 
 
