@@ -275,6 +275,52 @@ console.log(`${lethokuhle.firstName} has ${lethokuhle.friends.length} firends, a
 
 */
 
+/*
+// object Methods
+
+const lethokuhle = {
+  firstName : 'Lethokuhle',
+  lastName : 'Mabaso',
+  BirthYear : 2002,
+  job : 'Software Developer',
+  friends : ['Lethokuhle', 'Thando', 'Thabiso'],
+  hasDriversLicense : true,
+
+  // calcAge : function(birthYear){
+  //   return 2037 - birthYear;
+  // }
+
+  // calcAge : function(){
+  //   console.log(this)
+  //   return 2037 - this.BirthYear;
+  //  }
+
+    calcAge : function(){
+    this.age = 2037 - this.BirthYear;
+    return this.age;
+   },
+
+   getSummary : function(){
+    return `${this.firstName} is a ${this.calcAge()} years old ${this.job},and he has  ${this.hasDriversLicense ?"a" :"not"} driver's License. `
+   }
+};
+
+ console.log(lethokuhle.calcAge());
+ console.log(lethokuhle.age);
+// console.log(lethokuhle.calcAge(2002));
+// console.log(lethokuhle["calcAge"](2002));
+
+// challenge
+
+//"lethokuhle is 35 year old teacher,and he has a diver's licence"
+console.log(lethokuhle.getSummary());
+*/
+
+
+
+
+
+
 
 
 
