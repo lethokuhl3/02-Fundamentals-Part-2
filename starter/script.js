@@ -316,6 +316,7 @@ const lethokuhle = {
 console.log(lethokuhle.getSummary());
 */
 
+/*
 // coding challenge #3
 
 const john =  {
@@ -353,6 +354,9 @@ if(john.bmi > Mark.bmi){
 }else if(Mark.bmi > john.bmi){
   console.log(`${Mark.firstName}'s (${Mark.bmi} is higher than ${john.firstName}'s (${john.bmi})!`)
 }
+
+*/
+
 
 
 
