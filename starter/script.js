@@ -357,6 +357,147 @@ if(john.bmi > Mark.bmi){
 
 */
 
+// iteration : The for Loop
+
+// console.log('Lifting weights repetition')
+// console.log('Lifting weights repetition')
+// console.log('Lifting weights repetition')
+// console.log('Lifting weights repetition')
+// console.log('Lifting weights repetition')
+// console.log('Lifting weights repetition')
+// console.log('Lifting weights repetition')
+// console.log('Lifting weights repetition')
+
+
+/*
+// for Loop keeps running while condition is True
+for(let rep =  1; rep <= 30; rep ++){
+  console.log(`Lifting weights repetition${rep}`)
+}
+*/
+
+
+/*
+
+// Looping arrays, Breaking and continuing
+
+const lethokuhleArray = [
+  'Lethokuhle',
+  'Mabaso',
+  2037 - 2002,
+  'Software Developer',
+  ['Lethokuhle', 'Thando', 'Thabiso'],
+  true
+];
+
+const types = [];
+
+// console.log(lethokuhleArray[0])
+// console.log(lethokuhleArray[1])
+// console.log(lethokuhleArray[2])
+
+
+for(let i = 0; i < lethokuhleArray.length; i++){
+
+  // Reading from lethokuhleArray
+  console.log(lethokuhleArray[i], typeof lethokuhleArray[i]);
+
+  // filling types array
+  // types[i] = typeof lethokuhleArray[i]; 
+  types.push(typeof lethokuhleArray[i]);// adding new thing on an array
+}
+console.log(types);
+
+// creating a new array with the existing one
+const Years = [1991, 2007, 1969, 2020];
+const ages = [];
+
+for(let i = 0; i < Years.length; i++){
+  ages.push(2037 - Years[i]);
+}
+console.log(ages);
+
+// continue and break
+
+console.log('----ONLY Strings----')
+for(let i = 0; i < lethokuhleArray.length; i++){
+  if(typeof lethokuhleArray[i] !== "string") continue;
+
+  console.log(lethokuhleArray[i], typeof lethokuhleArray[i]);
+}
+
+
+console.log('----BREAK WITH NUMBER----')
+for(let i = 0; i < lethokuhleArray.length; i++){
+  if(typeof lethokuhleArray[i] === "number") break;
+
+  console.log(lethokuhleArray[i], typeof lethokuhleArray[i]);
+}
+
+*/
+
+/*
+
+//looping backwards and loops in loops
+
+const lethokuhleArray = [
+  'Lethokuhle',
+  'Mabaso',
+  2037 - 2002,
+  'Software Developer',
+  ['Lethokuhle', 'Thando', 'Thabiso'],
+  true
+];
+
+// 4, 3, ..., 0
+
+for(let i = lethokuhleArray.length - 1; i >= 0; i--){
+  console.log(i, lethokuhleArray[i]);
+}
+
+// loop inside a loop
+
+for(let exercise = 1; exercise <= 4; exercise++){
+  console.log(`----Starting exercise ${exercise}`);
+
+  for(let rep = 1; rep <= 6; rep++){
+    console.log(`Exercise${exercise}:Lifting weight repetition ${rep}`)
+  }
+}
+*/
+
+
+/*
+// The while loop
+
+// using for loop to compare
+// for(let rep =  1; rep <= 10; rep ++){
+//   console.log(`Lifting weights repetition${rep}`);
+// }
+
+let rep = 1;
+while(rep <= 10){
+  // console.log(`WHILE : Lifting weights repetition${rep}`);
+  rep ++;
+}
+
+let dice = Math.trunc(Math.random() * 6) + 1 
+
+while(dice !== 6){
+  console.log(`You rolled a ${dice}`);
+  dice = Math.trunc(Math.random() * 6) + 1;
+  if(dice === 6) console.log('Loop is about to end...');
+}
+
+*/
+
+
+
+
+
+
+
+
 
 
 
